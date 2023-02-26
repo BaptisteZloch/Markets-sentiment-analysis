@@ -1288,20 +1288,19 @@ cli = ["click (>=5.0)"]
 
 [[package]]
 name = "pytrends"
-version = "4.9.0"
+version = "4.7.1"
 description = "Pseudo API for Google Trends"
 category = "main"
 optional = false
-python-versions = ">=3.7"
+python-versions = "*"
 files = [
-    {file = "pytrends-4.9.0-py3-none-any.whl", hash = "sha256:0ed6d90afe0446aa697fe16cf068cdc6b1d5ca790d196c48c41bad6ff3217f3d"},
-    {file = "pytrends-4.9.0.tar.gz", hash = "sha256:a54fc1e3171442b3c8f5c080a5e21df807bc4faad7790cc62b7ddb059eb0a94b"},
+    {file = "pytrends-4.7.1-py2.py3-none-any.whl", hash = "sha256:1897a48059639c706ef07a7ce6362a4fa092f49a1e28f578f180a77de2972532"},
 ]
 
 [package.dependencies]
 lxml = "*"
-pandas = ">=0.25"
-requests = ">=2.0"
+pandas = "*"
+requests = "*"
 
 [[package]]
 name = "pytz"
@@ -1777,4 +1776,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.12"
-content-hash = "540ad67e07fe2037b3d20585646c360c74139035f43a8cd04c83624335b3df29"
+content-hash = "eb0d6be40e2170da1218f758408fdd9010cffb468a73759113d197cc62c5cd97"
