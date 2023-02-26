@@ -19,6 +19,7 @@ kucoin-python = "^1.0.11"
 plotly = "^5.13.1"
 nbformat = "^5.7.3"
 textblob = "^0.17.1"
+finnhub-python = "^2.4.16"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.1.0"

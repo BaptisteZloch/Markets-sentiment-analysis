@@ -502,6 +502,21 @@ files = [
 devel = ["colorama", "json-spec", "jsonschema", "pylint", "pytest", "pytest-benchmark", "pytest-cache", "validictory"]
 
 [[package]]
+name = "finnhub-python"
+version = "2.4.16"
+description = "Finnhub API"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "finnhub-python-2.4.16.tar.gz", hash = "sha256:ca951031a5fecdc1815b07f4545cc49ff646a6eb32e2149fceeb368787482bbf"},
+    {file = "finnhub_python-2.4.16-py3-none-any.whl", hash = "sha256:9ef290cc372b84120a95509f2290fee50d543d81e30c0accafa52f8a43fd1b49"},
+]
+
+[package.dependencies]
+requests = ">=2.22.0"
+
+[[package]]
 name = "frozendict"
 version = "2.3.5"
 description = "A simple immutable dictionary"
@@ -1948,4 +1963,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.12"
-content-hash = "fb1fcb6b40850a3934d912633c27efc11a9507e13f1d8018182cd281442b9963"
+content-hash = "90d9447efbbdab4e45246ab8eb2eb0623621b85a14470e51a33de281a2ab373f"
